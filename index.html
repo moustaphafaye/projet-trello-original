@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Projet trello copie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div  class="nav">
+        <div id="colone1" class="colone bg"><button id="ajouter">+ Ajouter</button> </div>
+           
+        <div id="note1" class="note bg" ><button id="note">+ Note</button></div>
+          
+    
+    </div>
+    <div class="divlesbuttons">
+       
+        <button class="cacherlenav " id="cacherlenav"> <i class="fa-solid fa-bars"></i></button>
+        <i id="save" class="fa-solid fa-floppy-disk"></i>
+        <button class="corbeilbutton"><i class="fa-solid fa-trash-can"></i></button>
+        
+    </div>
+        <div class="container" >
+          
+              <!-- <div class="trello1">
+                    <div id="trello_nom" class="trello_nom">
+                        <input class="input_nom" id="input_nom" type="text" >
+                    </div>
+                    <div class="trello_note" id="trello_note">
+                        <div class="div" ><button ><<</button>
+                            <input type="text">
+                            <button class="vadroit">>></button>
+                            <i id="isup-intup" class="fa-solid fa-trash-can"></i>
+                            <div class="sppan" >
+                                <span class="span1" style="display: block;">
+                                    djfhdfui
+                                </span> 
+                                <span class="span2"  style="display: block;">
+                                    ici
+                                </span>
+                                <span class="span3">
+                                    dhfgr
+                                </span>
+                            </div>
+                        </div> 
+                             <span class="span1" style="display: block;">
+                               djfhdfui
+                            </span> 
+                            <span class="span2"  style="display: block;">
+                                ici
+                             </span>  
+                         <i id="bnv" class="fa-solid fa-trash-can"></i>
+                      
+                    </div> 
+                      -->
+            </div>
+                <div class="divcorbiel"></div> 
+
+            
+        </div>
+      
+        <div class="modal-contain" id="modal">
+            <div  class="modal">
+                <button class="close-btn" id="close">
+                    <i class="fa fa-times "></i>
+                </button>
+                <div class="modal-header"><h3>Nouvelle Tache</h3></div>
+                <div class="modal-content">
+                    <p>Rampliser les informations de la nouvelle Tache</p>
+                    <form action="" id="form">
+                        <div class="form_contr" >
+                            <label for="">Tache</label><small>Error message</small>
+                            <textarea name="" id="recupertextarea" cols="10" rows="5"></textarea>
+                            
+                        </div>
+                        <div class="form_contr" >
+                            
+                           <label for="">Date</label><small>Error message</small>
+                           <input class="form-input" type="date" id="date" >
+                       </div>
+                       <div class="form_contr" >
+             
+                           <label for="">Heure de Debut</label><small>Error message</small>
+                           <input class="form-input" type="time" id="time"  >
+                       </div>
+                       <div class="form_contr">
+                            
+                           <label for="">Heure de Fin</label><small>Error message</small>
+                           <input class="form-input" type="time" id="time"  >
+                       </div>
+                       <input type="button" id="submit_btn" value="Ajouter">
+                    </form>
+                </div>
+            </div>
+        </div>
+   
+      <script src="script.js"></script>  
+</body>
+</html>
